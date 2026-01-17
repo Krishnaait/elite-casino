@@ -28,8 +28,8 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; <?php echo date('Y'); ?> Elite Casino. All rights reserved.</p>
-            <p style="font-size: 0.9rem; margin-top: 0.5rem;">
-                ⚠️ No real money gambling. Virtual coins have no real-world value. For entertainment purposes only.
+            <p style="font-size: 1.1rem; margin-top: 1rem; font-weight: bold; color: var(--warning); background: rgba(255, 193, 7, 0.1); padding: 1rem; border-radius: 10px; border: 2px solid var(--warning);">
+                ⚠️ <strong>NO REAL MONEY GAMBLING.</strong> Virtual coins have <strong>NO REAL-WORLD VALUE.</strong> For <strong>ENTERTAINMENT PURPOSES ONLY.</strong>
             </p>
         </div>
     </footer>

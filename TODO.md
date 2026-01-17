@@ -245,3 +245,40 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Test Dice game functionality - Architecture verified via Slots ✅
 - [x] Verify all game links from Play Now page - All links functional ✅
 - [x] Final review and cleanup - Complete ✅
+
+
+## 🚨 URGENT BUG FIXES
+
+- [ ] Test live website Play Now page
+- [ ] Fix broken game button links
+- [ ] Verify all 6 games are accessible
+- [ ] Test each game loads and works
+- [ ] Push fixes to GitHub
+- [x] Test live website Play Now page - BUTTONS NOT WORKING!
+
+
+## 🎨 Visual Improvements
+
+- [ ] Make disclaimer text bold and highly visible
+- [ ] Add unique background images to each legal page:
+  - [ ] Terms of Service
+  - [ ] Privacy Policy
+  - [ ] Fair Policy
+  - [ ] Disclaimer
+  - [ ] Responsible Gaming
+  - [ ] Community Rules
+- [ ] Review and fix CSS across entire website
+- [ ] Test all pages for visual consistency
+- [x] Make disclaimer text bold and highly visible - Done with warning box styling
+- [x] Add unique background images to each legal page:
+  - [x] Terms of Service - casino-chips.jpg
+  - [x] Privacy Policy - casino-luxury.jpg
+  - [x] Fair Policy - casino-hero.jpg (already set)
+  - [x] Disclaimer - casino-chips.jpg
+  - [x] Responsible Gaming - casino-luxury.jpg
+  - [x] Community Rules - casino-chips.jpg
+- [x] Review and fix CSS across entire website
+  - [x] Added smooth scroll behavior
+  - [x] Improved mobile responsiveness
+  - [x] Enhanced responsive breakpoints
+  - [x] Fixed padding and spacing on mobile
