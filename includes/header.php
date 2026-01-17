@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($pageTitle) ? $pageTitle . ' - ' : ''; ?>Elite Casino</title>
+    <title><?php echo isset($pageTitle) ? $pageTitle . ' - ' : ''; ?>RISHIKANT</title>
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/wallet.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="/index.php" class="logo">✨ ELITE CASINO</a>
+            <a href="/index.php" class="logo">🎰 RISHIKANT</a>
             <ul class="nav-links">
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/pages/play-now.php">Play Now</a></li>

@@ -300,3 +300,69 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Fix Play Now page buttons - Changed to relative (../games/) paths
 - [x] Add multiple background images to homepage - Added 3 layered backgrounds with animation
 - [x] Add background slide animation to CSS - 20s smooth transition between images
+
+
+## 🏢 RISHIKANT REBRANDING - NEW REQUIREMENTS
+
+### Phase 1: Test and Fix All Games
+- [x] Test Slots game - FIXED: Added wallet.js
+- [x] Test Mines game - FIXED: Added wallet.js
+- [x] Test Lucky Spin game - FIXED: Added wallet.js
+- [x] Test Blackjack game - FIXED: Added wallet.js
+- [x] Test Plinko game - FIXED: Added wallet.js
+- [x] Test Dice game - FIXED: Added wallet.js
+
+### Phase 2: Update Branding to RISHIKANT
+- [ ] Change site name from "Elite Casino" to "RISHIKANT"
+- [ ] Update logo in header to show "RISHIKANT"
+- [ ] Change header background color to new color scheme
+- [ ] Change footer background color to new color scheme
+- [ ] Update all page titles to include "RISHIKANT"
+- [ ] Update meta tags and descriptions
+
+### Phase 3: Add Company Details Everywhere
+- [ ] Add company name: RISHIKANT KULPATI IMPEX INDIA PRIVATE LIMITED
+- [ ] Add CIN: U52601DL2019PTC358816
+- [ ] Add GST NO: 09AAUCA1674K1Z1
+- [ ] Add PAN NO: AAJCR9693J
+- [ ] Add Address: GROUND FLOOR, WZ-294 40, 41,42, GALI NO-8A, G-BLK, HARI, NAGAR, JAIL ROAD, DELHI, West Delhi, Delhi, 110064
+- [ ] Add company details section in footer with all registration info
+- [ ] Add company details to About Us page
+- [ ] Add company details to Contact page (email support only, no phone)
+- [ ] Add company details to Terms of Service
+- [ ] Add company details to Privacy Policy
+- [ ] Remove all phone/calling references (email support only)
+
+### Phase 4: Homepage Multiple Background Images
+- [ ] Verify 3-5 casino background images are working
+- [ ] Ensure CSS animation rotates/fades between backgrounds smoothly
+- [ ] Verify text remains readable over all backgrounds
+- [ ] Add overlay if needed for better readability
+
+### Phase 5: Add New Homepage Sections
+- [ ] Add "Why Choose RISHIKANT" section with key benefits
+- [ ] Add "Our Games" showcase section with game previews
+- [ ] Add "How It Works" section explaining the platform
+- [ ] Add "Safe & Fair Gaming" section with trust indicators
+- [ ] Add features/testimonials section
+- [ ] Add company registration badges/trust indicators
+
+### Phase 6: Detailed About Us Page Rewrite
+- [ ] Add "Who We Are" section with company introduction
+- [ ] Add "Why We Are" / "Our Mission" section
+- [ ] Add "Pros of Playing at RISHIKANT" section (bulleted list)
+- [ ] Add "What Makes Us Different" section
+- [ ] Add company registration details prominently
+- [ ] Add professional company description
+- [ ] Add cons/limitations section for transparency
+- [ ] Add company values and principles
+
+### Phase 7: Testing & Deployment
+- [ ] Test all 6 games thoroughly on local server
+- [ ] Test all navigation links work correctly
+- [ ] Test responsive design on mobile devices
+- [ ] Verify all company details are displayed correctly
+- [ ] Check all color changes look professional
+- [ ] Commit all changes to GitHub
+- [ ] Deploy to Railway
+- [ ] Verify live site works perfectly with all changes

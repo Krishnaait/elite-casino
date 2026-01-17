@@ -38,7 +38,7 @@ body {
 
 /* Header Styles */
 header {
-    background: rgba(26, 26, 46, 0.95);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     position: sticky;
@@ -368,7 +368,7 @@ tr:hover {
 
 /* Footer */
 footer {
-    background: var(--secondary);
+    background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
     padding: 3rem 0 1rem;
     margin-top: 4rem;
     border-top: 2px solid var(--primary);

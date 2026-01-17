@@ -17,7 +17,7 @@ require_once __DIR__ . '/includes/header.php';
         <div style="display: inline-block; padding: 0.5rem 2rem; background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(184, 134, 11, 0.2)); border: 2px solid var(--primary); border-radius: 50px; margin-bottom: 1.5rem;">
             <span style="font-size: 0.9rem; color: var(--primary); font-weight: bold; letter-spacing: 2px;">✨ PREMIUM GAMING EXPERIENCE</span>
         </div>
-        <h1 style="font-size: 4rem; margin-bottom: 1rem; text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);">ELITE CASINO</h1>
+        <h1 style="font-size: 4rem; margin-bottom: 1rem; text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);">🎰 RISHIKANT</h1>
         <p style="font-size: 1.5rem; color: var(--primary); margin-bottom: 1rem; font-weight: 600;">100% Free Social Casino</p>
         <p style="font-size: 1.2rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Experience the thrill of premium casino games with virtual coins. No real money, no registration, just pure entertainment!</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
@@ -115,7 +115,7 @@ require_once __DIR__ . '/includes/header.php';
     </div>
     
     <div style="text-align: center; margin: 4rem 0;">
-        <h2 class="section-title">🏆 Why Choose Elite Casino?</h2>
+        <h2 class="section-title">🏆 Why Choose RISHIKANT?</h2>
         <div class="games-grid">
             <div class="game-card">
                 <div class="game-icon">🎁</div>
@@ -136,6 +136,60 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="game-icon">🎮</div>
                 <h3>Pure Entertainment</h3>
                 <p>Experience the thrill of casino games without any financial risk. It's all about fun and excitement!</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- How It Works Section -->
+    <div style="margin: 4rem 0;">
+        <h2 class="section-title">📝 How It Works</h2>
+        <div class="games-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <div class="stat-card fade-in" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">👉</div>
+                <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Step 1</h3>
+                <p>Visit RISHIKANT website</p>
+            </div>
+            <div class="stat-card fade-in" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🎮</div>
+                <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Step 2</h3>
+                <p>Choose your favorite game</p>
+            </div>
+            <div class="stat-card fade-in" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">💰</div>
+                <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Step 3</h3>
+                <p>Start with 10,000 free coins</p>
+            </div>
+            <div class="stat-card fade-in" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🎉</div>
+                <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Step 4</h3>
+                <p>Play and enjoy instantly!</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Safe & Fair Gaming Section -->
+    <div style="margin: 4rem 0; background: var(--bg-card); padding: 3rem; border-radius: 15px; border: 2px solid var(--primary);">
+        <h2 class="section-title">✅ Safe & Fair Gaming</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <div class="game-icon">🔒</div>
+                <h3>Secure Platform</h3>
+                <p>Your privacy is our priority. No personal data collection, no registration required. Play anonymously and safely.</p>
+            </div>
+            <div class="game-card">
+                <div class="game-icon">⚖️</div>
+                <h3>Fair Play Guaranteed</h3>
+                <p>All games use certified Random Number Generators (RNG) to ensure completely fair and unbiased results every time.</p>
+            </div>
+            <div class="game-card">
+                <div class="game-icon">🏢</div>
+                <h3>Registered Company</h3>
+                <p>Operated by RISHIKANT KULPATI IMPEX INDIA PVT LTD - A legally registered Indian company (CIN: U52601DL2019PTC358816).</p>
+            </div>
+            <div class="game-card">
+                <div class="game-icon">📧</div>
+                <h3>Email Support</h3>
+                <p>Need help? Our support team is available via email. We respond to all queries promptly and professionally.</p>
             </div>
         </div>
     </div>

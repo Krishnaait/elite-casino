@@ -85,6 +85,8 @@ require_once __DIR__ . '/../includes/header.php';
     </div>
 </div>
 
+<script src="/js/wallet.js"></script>
+<script src="/js/game-history.js"></script>
 <script src="/js/mines.js"></script>
 
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>
