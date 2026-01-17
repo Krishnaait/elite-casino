@@ -1,7 +1,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>🎰 RISHIKANT</h3>
+                <img src="/images/rishikant-logo.png" alt="RISHIKANT Casino" style="height: 80px; margin-bottom: 1rem;">
                 <p>Premium social casino entertainment. 100% free to play, no real money involved.</p>
                 <p style="margin-top: 1rem; color: var(--warning); font-weight: bold;">18+ Only | For Entertainment Only</p>
             </div>

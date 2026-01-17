@@ -17,7 +17,7 @@ require_once __DIR__ . '/includes/header.php';
         <div style="display: inline-block; padding: 0.5rem 2rem; background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(184, 134, 11, 0.2)); border: 2px solid var(--primary); border-radius: 50px; margin-bottom: 1.5rem;">
             <span style="font-size: 0.9rem; color: var(--primary); font-weight: bold; letter-spacing: 2px;">✨ PREMIUM GAMING EXPERIENCE</span>
         </div>
-        <h1 style="font-size: 4rem; margin-bottom: 1rem; text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);">🎰 RISHIKANT</h1>
+        <h1 style="font-size: 4rem; margin-bottom: 1rem; text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);">RISHIKANT</h1>
         <p style="font-size: 1.5rem; color: var(--primary); margin-bottom: 1rem; font-weight: 600;">100% Free Social Casino</p>
         <p style="font-size: 1.2rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Experience the thrill of premium casino games with virtual coins. No real money, no registration, just pure entertainment!</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
