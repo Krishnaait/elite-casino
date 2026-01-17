@@ -60,7 +60,7 @@ function addWinnings(amount, multiplier = 1) {
     return updateBalance(amount, 'win', `Won ${amount} coins (${multiplier}x)`);
 }
 
-// Reset balance (for testing or daily bonus)
+// Reset balance (for testing)
 function resetBalance() {
     localStorage.setItem(WALLET_KEY, STARTING_BALANCE);
     updateBalanceDisplay();
@@ -125,21 +125,6 @@ function getStats() {
         gamesPlayed: gamesPlayed,
         netProfit: totalWins - totalBets
     };
-}
-
-// Daily bonus (can be claimed once per day)
-function claimDailyBonus() {
-    const lastClaim = localStorage.getItem('eliteCasino_lastBonus');
-    const today = new Date().toDateString();
-    
-    if (lastClaim !== today) {
-        const bonusAmount = 1000;
-        updateBalance(bonusAmount, 'bonus', 'Daily bonus claimed');
-        localStorage.setItem('eliteCasino_lastBonus', today);
-        return { success: true, amount: bonusAmount };
-    }
-    
-    return { success: false, message: 'Daily bonus already claimed today' };
 }
 
 // Initialize on page load

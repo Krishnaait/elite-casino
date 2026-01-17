@@ -92,13 +92,6 @@ require_once __DIR__ . '/../includes/header.php';
                 </div>
                 
                 <div>
-                    <h3 style="color: var(--primary); margin-bottom: 0.5rem;">🎁 Daily Bonus</h3>
-                    <p style="color: #ccc; line-height: 1.8;">
-                        Claim 1,000 free coins every day. Come back daily to keep your balance topped up!
-                    </p>
-                </div>
-                
-                <div>
                     <h3 style="color: var(--primary); margin-bottom: 0.5rem;">🎨 Elegant Design</h3>
                     <p style="color: #ccc; line-height: 1.8;">
                         Premium visual design with smooth animations and a sophisticated casino atmosphere.

@@ -115,14 +115,7 @@ require_once __DIR__ . '/../includes/header.php';
         </div>
     </div>
     
-    <div style="margin-top: 4rem; background: linear-gradient(135deg, var(--accent), var(--secondary-light)); padding: 3rem; border-radius: 15px; border: 2px solid var(--primary); text-align: center;">
-        <h2 style="color: var(--primary); margin-bottom: 1rem;">🎁 Daily Bonus</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Get 1,000 free coins every day! Come back tomorrow for more.</p>
-        <button onclick="claimDailyBonus()" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem;">Claim Daily Bonus</button>
-        <div id="bonus-result" style="margin-top: 1rem;"></div>
-    </div>
-    
-    <div style="margin-top: 3rem; background: var(--bg-card); padding: 2rem; border-radius: 15px; border: 1px solid var(--primary);">
+    <div style="margin-top: 4rem; background: var(--bg-card); padding: 2rem; border-radius: 15px; border: 1px solid var(--primary);">
         <h3 style="color: var(--primary); text-align: center; margin-bottom: 1.5rem;">⚠️ Important Information</h3>
         <div style="color: #ccc; line-height: 1.8;">
             <p style="margin-bottom: 1rem;">
@@ -148,18 +141,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const balance = getBalance();
     document.getElementById('balance-large').textContent = formatCoins(balance) + ' Coins';
 });
-
-function claimDailyBonus() {
-    const result = claimDailyBonus();
-    const resultDiv = document.getElementById('bonus-result');
-    
-    if (result.success) {
-        resultDiv.innerHTML = '<div class="alert alert-success">🎉 Bonus claimed! +' + result.amount + ' coins added!</div>';
-        document.getElementById('balance-large').textContent = formatCoins(getBalance()) + ' Coins';
-    } else {
-        resultDiv.innerHTML = '<div class="alert alert-warning">⏰ ' + result.message + '</div>';
-    }
-}
 </script>
 
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>

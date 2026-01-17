@@ -161,3 +161,15 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Verify all game links work properly
 - [x] Fix secondary statistics to show 6 games
 - [x] All testing complete
+
+
+## 🚫 Remove Daily Bonus
+
+- [ ] Remove daily bonus section from Play Now page
+- [ ] Remove daily bonus functions from wallet.js
+- [ ] Verify no daily bonus references remain
+- [x] Remove daily bonus section from Play Now page
+- [x] Remove daily bonus functions from wallet.js
+- [x] Remove daily bonus from About page
+- [x] Remove daily bonus references from Contact page FAQ
+- [x] Verify no daily bonus references remain

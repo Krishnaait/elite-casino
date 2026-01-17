@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div style="color: #ccc; line-height: 1.8;">
                 <details style="margin-bottom: 1rem; padding: 1rem; background: var(--bg-card); border-radius: 8px; cursor: pointer;">
                     <summary style="font-weight: bold; color: var(--primary);">Is Elite Casino really free?</summary>
-                    <p style="margin-top: 1rem;">Yes! Elite Casino is 100% free to play. There are no deposits, purchases, or hidden costs. You start with 10,000 virtual coins and can claim daily bonuses.</p>
+                    <p style="margin-top: 1rem;">Yes! Elite Casino is 100% free to play. There are no deposits, purchases, or hidden costs. You start with 10,000 virtual coins for free.</p>
                 </details>
                 
                 <details style="margin-bottom: 1rem; padding: 1rem; background: var(--bg-card); border-radius: 8px; cursor: pointer;">
@@ -111,11 +111,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <details style="margin-bottom: 1rem; padding: 1rem; background: var(--bg-card); border-radius: 8px; cursor: pointer;">
                     <summary style="font-weight: bold; color: var(--primary);">Can I win real money?</summary>
                     <p style="margin-top: 1rem;">No. Elite Casino is a social casino for entertainment purposes only. All coins are virtual and have no real-world value. No real money gambling is involved.</p>
-                </details>
-                
-                <details style="margin-bottom: 1rem; padding: 1rem; background: var(--bg-card); border-radius: 8px; cursor: pointer;">
-                    <summary style="font-weight: bold; color: var(--primary);">What if I run out of coins?</summary>
-                    <p style="margin-top: 1rem;">You can claim a daily bonus of 1,000 coins every day. If you run out, just come back tomorrow for more free coins!</p>
                 </details>
                 
                 <details style="margin-bottom: 1rem; padding: 1rem; background: var(--bg-card); border-radius: 8px; cursor: pointer;">
