@@ -127,5 +127,14 @@ function getStats() {
     };
 }
 
+// Backward compatibility aliases for old function names
+function deductBalance(amount) {
+    return placeBet(amount);
+}
+
+function addBalance(amount) {
+    return addWinnings(amount, 1);
+}
+
 // Initialize on page load
 initWallet();
