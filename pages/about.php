@@ -3,6 +3,7 @@ $pageTitle = 'About Us';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
+<div style="background: linear-gradient(rgba(10, 25, 47, 0.92), rgba(10, 25, 47, 0.92)), url('/images/casino-luxury.jpg') center/cover fixed; min-height: 100vh; padding: 2rem 0;">
 <div class="container">
     <h1 class="section-title">About Elite Casino</h1>
     
@@ -124,6 +125,7 @@ require_once __DIR__ . '/../includes/header.php';
             <a href="/pages/contact.php" class="btn btn-primary">Contact Us</a>
         </div>
     </div>
+</div>
 </div>
 
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>
