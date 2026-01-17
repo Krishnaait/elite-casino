@@ -12,7 +12,7 @@
     <header>
         <nav>
             <a href="/index.php" class="logo">
-                <img src="/images/rishikant-logo.png" alt="RISHIKANT Casino" style="height: 50px; vertical-align: middle;">
+                <img src="/images/rishikant-logo.png" alt="RISHIKANT Casino" style="height: 120px; vertical-align: middle;">
             </a>
             <ul class="nav-links">
                 <li><a href="/index.php">Home</a></li>

@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
         <p style="font-size: 1.2rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Experience the thrill of premium casino games with virtual coins. No real money, no registration, just pure entertainment!</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
             <a href="/pages/play-now.php" class="btn btn-primary" style="font-size: 1.3rem; padding: 1.2rem 3rem; box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);">🎮 Start Playing Now</a>
-            <a href="/pages/about.php" class="btn" style="font-size: 1.3rem; padding: 1.2rem 3rem; background: rgba(255,255,255,0.1); border: 2px solid var(--primary);">📖 Learn More</a>
+            <a href="/pages/about.php" class="btn" style="font-size: 1.3rem; padding: 1.2rem 3rem; background: rgba(255,255,255,0.1); border: 2px solid var(--primary); color: white;">📖 Learn More</a>
         </div>
         <div style="display: flex; gap: 3rem; justify-content: center; flex-wrap: wrap; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(212, 175, 55, 0.3);">
             <div style="text-align: center;">

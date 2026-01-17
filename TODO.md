@@ -399,3 +399,12 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Implement favicon in header.php
 - [ ] Commit and push changes to GitHub
 - [ ] Verify on live Railway site
+
+
+## 🔧 LOGO & TEXT VISIBILITY FIXES
+
+- [x] Increase header logo size from 50px to 120px
+- [x] Increase footer logo size from 80px to 150px
+- [x] Fix "Learn More" button text visibility (change color from purple to white)
+- [ ] Test visibility on live site
+- [ ] Commit and push to GitHub
