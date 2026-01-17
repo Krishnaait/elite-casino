@@ -67,19 +67,51 @@ require_once __DIR__ . '/../includes/header.php';
         </div>
         
         <div class="game-card fade-in">
-            <div class="game-icon">🎲</div>
-            <h3>Roulette</h3>
-            <p>Classic casino roulette! Place bets on red, black, or green and watch the wheel decide your fate.</p>
+            <div class="game-icon">🎴</div>
+            <h3>Blackjack</h3>
+            <p>Beat the dealer by getting as close to 21 as possible! Classic card game with hit, stand, and double down options.</p>
             <div style="margin: 1rem 0; padding: 1rem; background: var(--secondary); border-radius: 10px;">
                 <div style="color: var(--primary); font-weight: bold; margin-bottom: 0.5rem;">Features:</div>
                 <ul style="text-align: left; color: #ccc; line-height: 1.8;">
-                    <li>Multiple betting options</li>
-                    <li>Up to 14x payout</li>
-                    <li>Place multiple bets</li>
-                    <li>Realistic wheel spin</li>
+                    <li>Full card deck</li>
+                    <li>Dealer AI</li>
+                    <li>Double down option</li>
+                    <li>Blackjack pays 2.5x</li>
                 </ul>
             </div>
-            <a href="/games/roulette.php" class="btn btn-primary" style="width: 100%;">Play Roulette</a>
+            <a href="/games/blackjack.php" class="btn btn-primary" style="width: 100%;">Play Blackjack</a>
+        </div>
+        
+        <div class="game-card fade-in">
+            <div class="game-icon">🎯</div>
+            <h3>Plinko</h3>
+            <p>Drop the ball and watch it bounce through pegs! Land in high multiplier slots for massive wins up to 16x!</p>
+            <div style="margin: 1rem 0; padding: 1rem; background: var(--secondary); border-radius: 10px;">
+                <div style="color: var(--primary); font-weight: bold; margin-bottom: 0.5rem;">Features:</div>
+                <ul style="text-align: left; color: #ccc; line-height: 1.8;">
+                    <li>Physics-based gameplay</li>
+                    <li>12 rows of pegs</li>
+                    <li>Up to 16x multiplier</li>
+                    <li>Smooth animations</li>
+                </ul>
+            </div>
+            <a href="/games/plinko.php" class="btn btn-primary" style="width: 100%;">Play Plinko</a>
+        </div>
+        
+        <div class="game-card fade-in">
+            <div class="game-icon">🎲</div>
+            <h3>Dice</h3>
+            <p>Roll the dice and predict over or under! Adjust your target number for different multipliers and risk levels.</p>
+            <div style="margin: 1rem 0; padding: 1rem; background: var(--secondary); border-radius: 10px;">
+                <div style="color: var(--primary); font-weight: bold; margin-bottom: 0.5rem;">Features:</div>
+                <ul style="text-align: left; color: #ccc; line-height: 1.8;">
+                    <li>Roll 0-100</li>
+                    <li>Adjustable target</li>
+                    <li>Dynamic multipliers</li>
+                    <li>Instant results</li>
+                </ul>
+            </div>
+            <a href="/games/dice.php" class="btn btn-primary" style="width: 100%;">Play Dice</a>
         </div>
     </div>
     

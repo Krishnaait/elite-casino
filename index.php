@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div style="font-size: 0.9rem; color: #ccc;">Free Starting Coins</div>
             </div>
             <div style="text-align: center;">
-                <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">10</div>
+                <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">6</div>
                 <div style="font-size: 0.9rem; color: #ccc;">Exciting Games</div>
             </div>
             <div style="text-align: center;">
@@ -64,13 +64,6 @@ require_once __DIR__ . '/includes/header.php';
         </div>
         
         <div class="game-card fade-in">
-            <div class="game-icon">🎲</div>
-            <h3>Roulette</h3>
-            <p>Place your bets on red, black, or specific numbers. Watch the wheel spin and feel the excitement of classic roulette!</p>
-            <a href="/games/roulette.php" class="btn btn-primary">Play Roulette</a>
-        </div>
-        
-        <div class="game-card fade-in">
             <div class="game-icon">🃏</div>
             <h3>Blackjack</h3>
             <p>Beat the dealer by getting as close to 21 as possible! Classic card game with hit, stand, and double down options.</p>
@@ -100,7 +93,7 @@ require_once __DIR__ . '/includes/header.php';
             <p>Starting Coins</p>
         </div>
         <div class="stat-card fade-in">
-            <h3>4</h3>
+            <h3>6</h3>
             <p>Exciting Games</p>
         </div>
         <div class="stat-card fade-in">

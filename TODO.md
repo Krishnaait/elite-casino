@@ -121,3 +121,43 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Update footer navigation to match simplified structure
 - [x] Delete leaderboard.php page
 - [x] Remove all leaderboard references from other pages
+
+
+## 🎮 Replace Roulette with Stake-Inspired Games
+
+- [ ] Research Stake.com popular casino games
+- [ ] Remove Roulette game file and references
+- [ ] Add Crash game (multiplier crash game)
+- [ ] Add Limbo game (multiplier prediction)
+- [ ] Add Wheel game (spinning wheel with segments)
+- [ ] Add Keno game (lottery-style number selection)
+- [ ] Update homepage with new games
+- [ ] Update Play Now page with new games
+- [x] Research Stake.com popular casino games
+- [x] Remove Roulette game file and references
+
+
+## 🎮 Temple of Games Research
+
+- [ ] Explore Temple of Games website
+- [ ] Identify unique games not in current website
+- [ ] Play and understand game mechanics
+- [ ] Implement new unique casino games
+
+
+## ✅ Final Verification Tasks
+
+- [ ] Check homepage displays correct game count (6 games)
+- [ ] Update statistics to show 6 games instead of 7/10
+- [ ] Test all CTA buttons on homepage
+- [ ] Verify all game links work properly
+- [ ] Update Play Now page with current 6 games
+- [ ] Remove any references to removed games
+- [x] Check homepage displays correct game count (6 games)
+- [x] Update statistics to show 6 games instead of 10
+- [x] Update Play Now page with current 6 games
+- [x] Remove Roulette references from Play Now page
+- [x] Test all CTA buttons on homepage
+- [x] Verify all game links work properly
+- [x] Fix secondary statistics to show 6 games
+- [x] All testing complete
