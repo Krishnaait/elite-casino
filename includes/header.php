@@ -14,11 +14,6 @@
             <ul class="nav-links">
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/pages/play-now.php">Play Now</a></li>
-                <li><a href="/games/slots.php">Slots</a></li>
-                <li><a href="/games/mines.php">Mines</a></li>
-                <li><a href="/games/lucky-spin.php">Lucky Spin</a></li>
-                <li><a href="/games/roulette.php">Roulette</a></li>
-                <li><a href="/pages/leaderboard.php">Leaderboard</a></li>
                 <li><a href="/pages/about.php">About</a></li>
                 <li><a href="/pages/contact.php">Contact</a></li>
             </ul>

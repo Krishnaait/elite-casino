@@ -105,3 +105,19 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Add Blackjack game with full card mechanics
 - [x] Add Plinko game with physics simulation
 - [x] Add Dice game with over/under betting
+
+
+## 🔄 Navigation Simplification
+
+- [ ] Update header navigation to show only: Home, Play Now, About, Contact
+- [ ] Remove individual game links from header (Slots, Mines, Lucky Spin, Roulette)
+- [ ] Remove Leaderboard link from header
+- [ ] Update footer navigation to match simplified structure
+- [ ] Delete leaderboard.php page
+- [ ] Remove all leaderboard references from other pages
+- [x] Update header navigation to show only: Home, Play Now, About, Contact
+- [x] Remove individual game links from header (Slots, Mines, Lucky Spin, Roulette)
+- [x] Remove Leaderboard link from header
+- [x] Update footer navigation to match simplified structure
+- [x] Delete leaderboard.php page
+- [x] Remove all leaderboard references from other pages

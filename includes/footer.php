@@ -12,16 +12,6 @@
                     <li><a href="/pages/play-now.php">Play Now</a></li>
                     <li><a href="/pages/about.php">About Us</a></li>
                     <li><a href="/pages/contact.php">Contact</a></li>
-                    <li><a href="/pages/leaderboard.php">Leaderboard</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Games</h3>
-                <ul>
-                    <li><a href="/games/slots.php">Slots</a></li>
-                    <li><a href="/games/mines.php">Mines</a></li>
-                    <li><a href="/games/lucky-spin.php">Lucky Spin</a></li>
-                    <li><a href="/games/roulette.php">Roulette</a></li>
                 </ul>
             </div>
             <div class="footer-section">
