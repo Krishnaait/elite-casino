@@ -88,11 +88,31 @@ function checkWin(results, betAmount) {
         // Add winnings
         addWinnings(winAmount, multiplier);
         
+        // Add to history
+        window.gameHistory.add('slots', {
+            won: true,
+            bet: betAmount,
+            payout: winAmount,
+            multiplier: multiplier,
+            symbols: results.join(' ')
+        });
+        
         showResult(`🎉 JACKPOT! You won ${formatCoins(winAmount)} coins! (${multiplier}x)`, 'success');
         celebrateWin();
     } else {
+        // Add loss to history
+        window.gameHistory.add('slots', {
+            won: false,
+            bet: betAmount,
+            payout: 0,
+            symbols: results.join(' ')
+        });
+        
         showResult('Try again! 🎰', 'warning');
     }
+    
+    // Update history display
+    updateHistoryDisplay();
 }
 
 function showResult(message, type) {
@@ -104,6 +124,25 @@ function showResult(message, type) {
     else if (type === 'warning') color = 'var(--warning)';
     
     resultDiv.innerHTML = `<span style="color: ${color};">${message}</span>`;
+}
+
+function updateHistoryDisplay() {
+    // Display recent results
+    window.gameHistory.displayRecent('slots', 'slots-recent-results', (result) => {
+        const bgColor = result.won ? 'rgba(74, 222, 128, 0.2)' : 'rgba(248, 113, 113, 0.2)';
+        const borderColor = result.won ? '#4ade80' : '#f87171';
+        return `
+            <div style="padding: 0.75rem; background: ${bgColor}; border: 2px solid ${borderColor}; border-radius: 8px; min-width: 100px; text-align: center;">
+                <div style="font-size: 1.2rem; margin-bottom: 0.25rem;">${result.symbols}</div>
+                <div style="font-size: 0.85rem; color: ${result.won ? '#4ade80' : '#f87171'}; font-weight: bold;">
+                    ${result.won ? `+${formatCoins(result.payout)}` : `-${formatCoins(result.bet)}`}
+                </div>
+            </div>
+        `;
+    });
+    
+    // Display statistics
+    window.gameHistory.displayStats('slots', 'slots-stats');
 }
 
 function celebrateWin() {
@@ -124,4 +163,7 @@ function celebrateWin() {
 document.addEventListener('DOMContentLoaded', function() {
     // Set random initial symbols
     stopReels();
+    
+    // Load and display history
+    updateHistoryDisplay();
 });

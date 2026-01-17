@@ -45,6 +45,15 @@ require_once __DIR__ . '/../includes/header.php';
             </div>
         </div>
         
+        <!-- Game History -->
+        <div style="margin-top: 3rem; background: var(--bg-card); padding: 2rem; border-radius: 15px; border: 2px solid var(--primary);">
+            <h3 style="color: var(--primary); text-align: center; margin-bottom: 1.5rem;">📊 Recent Results</h3>
+            <div id="slots-recent-results" style="margin-bottom: 2rem;"></div>
+            
+            <h3 style="color: var(--primary); text-align: center; margin-bottom: 1.5rem; margin-top: 2rem;">🏆 Your Statistics</h3>
+            <div id="slots-stats"></div>
+        </div>
+        
         <!-- Paytable -->
         <div style="margin-top: 3rem; background: var(--bg-card); padding: 2rem; border-radius: 15px; border: 1px solid var(--primary);">
             <h3 style="color: var(--primary); text-align: center; margin-bottom: 1.5rem;">💰 Paytable</h3>
@@ -86,6 +95,7 @@ require_once __DIR__ . '/../includes/header.php';
     </div>
 </div>
 
+<script src="/js/game-history.js"></script>
 <script src="/js/slots.js"></script>
 
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>
