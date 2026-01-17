@@ -477,6 +477,18 @@ footer {
 }
 
 /* Animations */
+@keyframes backgroundSlide {
+    0%, 100% {
+        background-position: center, center, center center, left center, right center;
+    }
+    33% {
+        background-position: center, center, left center, center center, right center;
+    }
+    66% {
+        background-position: center, center, right center, left center, center center;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

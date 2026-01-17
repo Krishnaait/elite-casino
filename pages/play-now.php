@@ -31,7 +31,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <li>Instant results</li>
                 </ul>
             </div>
-            <a href="/games/slots.php" class="btn btn-primary" style="width: 100%;">Play Slots</a>
+            <a href="../games/slots.php" class="btn btn-primary" style="width: 100%;">Play Slots</a>
         </div>
         
         <div class="game-card fade-in">
@@ -47,7 +47,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <li>Progressive multipliers</li>
                 </ul>
             </div>
-            <a href="/games/mines.php" class="btn btn-primary" style="width: 100%;">Play Mines</a>
+            <a href="../games/mines.php" class="btn btn-primary" style="width: 100%;">Play Mines</a>
         </div>
         
         <div class="game-card fade-in">
@@ -63,7 +63,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <li>Smooth spinning action</li>
                 </ul>
             </div>
-            <a href="/games/lucky-spin.php" class="btn btn-primary" style="width: 100%;">Play Lucky Spin</a>
+            <a href="../games/lucky-spin.php" class="btn btn-primary" style="width: 100%;">Play Lucky Spin</a>
         </div>
         
         <div class="game-card fade-in">
@@ -79,7 +79,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <li>Blackjack pays 2.5x</li>
                 </ul>
             </div>
-            <a href="/games/blackjack.php" class="btn btn-primary" style="width: 100%;">Play Blackjack</a>
+            <a href="../games/blackjack.php" class="btn btn-primary" style="width: 100%;">Play Blackjack</a>
         </div>
         
         <div class="game-card fade-in">
@@ -95,7 +95,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <li>Smooth animations</li>
                 </ul>
             </div>
-            <a href="/games/plinko.php" class="btn btn-primary" style="width: 100%;">Play Plinko</a>
+            <a href="../games/plinko.php" class="btn btn-primary" style="width: 100%;">Play Plinko</a>
         </div>
         
         <div class="game-card fade-in">
@@ -111,7 +111,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <li>Instant results</li>
                 </ul>
             </div>
-            <a href="/games/dice.php" class="btn btn-primary" style="width: 100%;">Play Dice</a>
+            <a href="../games/dice.php" class="btn btn-primary" style="width: 100%;">Play Dice</a>
         </div>
     </div>
     

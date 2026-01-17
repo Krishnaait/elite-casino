@@ -3,7 +3,15 @@ $pageTitle = 'Home';
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="hero" style="background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('/images/casino-hero.jpg') center/cover; min-height: 600px; display: flex; align-items: center; position: relative; overflow: hidden;">
+<section class="hero" style="background: 
+    linear-gradient(rgba(10, 25, 47, 0.88), rgba(10, 25, 47, 0.88)),
+    linear-gradient(45deg, rgba(212, 175, 55, 0.05) 0%, transparent 50%, rgba(212, 175, 55, 0.05) 100%),
+    url('images/casino-hero.jpg') center/cover,
+    url('images/casino-luxury.jpg') center/cover,
+    url('images/casino-chips.jpg') center/cover;
+    background-blend-mode: normal, overlay, normal, normal, normal;
+    animation: backgroundSlide 20s ease-in-out infinite;
+    min-height: 600px; display: flex; align-items: center; position: relative; overflow: hidden;">
     <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 70%);"></div>
     <div class="hero-content fade-in" style="position: relative; z-index: 2;">
         <div style="display: inline-block; padding: 0.5rem 2rem; background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(184, 134, 11, 0.2)); border: 2px solid var(--primary); border-radius: 50px; margin-bottom: 1.5rem;">
@@ -46,42 +54,42 @@ require_once __DIR__ . '/includes/header.php';
             <div class="game-icon">🎰</div>
             <h3>Slots</h3>
             <p>Spin the reels and match symbols to win big! Classic 3-reel slot machine with multiple paylines and exciting bonus features.</p>
-            <a href="/games/slots.php" class="btn btn-primary">Play Slots</a>
+            <a href="./games/slots.php" class="btn btn-primary">Play Slots</a>
         </div>
         
         <div class="game-card fade-in">
             <div class="game-icon">💣</div>
             <h3>Mines</h3>
             <p>Navigate through the minefield and reveal safe tiles. The more tiles you uncover, the bigger your multiplier grows!</p>
-            <a href="/games/mines.php" class="btn btn-primary">Play Mines</a>
+            <a href="./games/mines.php" class="btn btn-primary">Play Mines</a>
         </div>
         
         <div class="game-card fade-in">
             <div class="game-icon">🎡</div>
             <h3>Lucky Spin</h3>
             <p>Spin the wheel of fortune and watch it land on amazing prizes! Multiple prize tiers with increasing rewards.</p>
-            <a href="/games/lucky-spin.php" class="btn btn-primary">Play Lucky Spin</a>
+            <a href="./games/lucky-spin.php" class="btn btn-primary">Play Lucky Spin</a>
         </div>
         
         <div class="game-card fade-in">
             <div class="game-icon">🃏</div>
             <h3>Blackjack</h3>
             <p>Beat the dealer by getting as close to 21 as possible! Classic card game with hit, stand, and double down options.</p>
-            <a href="/games/blackjack.php" class="btn btn-primary">Play Blackjack</a>
+            <a href="./games/blackjack.php" class="btn btn-primary">Play Blackjack</a>
         </div>
         
         <div class="game-card fade-in">
             <div class="game-icon">🎯</div>
             <h3>Plinko</h3>
             <p>Drop the ball and watch it bounce through pegs! Land in high multiplier slots for massive wins up to 16x!</p>
-            <a href="/games/plinko.php" class="btn btn-primary">Play Plinko</a>
+            <a href="./games/plinko.php" class="btn btn-primary">Play Plinko</a>
         </div>
         
         <div class="game-card fade-in">
             <div class="game-icon">🎲</div>
             <h3>Dice</h3>
             <p>Roll the dice and predict over or under! Adjust your target number for different multipliers and risk levels.</p>
-            <a href="/games/dice.php" class="btn btn-primary">Play Dice</a>
+            <a href="./games/dice.php" class="btn btn-primary">Play Dice</a>
         </div>
     </div>
     
