@@ -3,13 +3,38 @@ $pageTitle = 'Home';
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="hero">
-    <div class="hero-content fade-in">
-        <h1>ELITE CASINO</h1>
-        <p>100% Free Social Casino - No Real Money, Pure Entertainment!</p>
-        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Play premium casino games with virtual coins. No registration required!</p>
-        <a href="/pages/play-now.php" class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 3rem;">Start Playing Now - It's Free!</a>
-        <p style="font-size: 0.9rem; margin-top: 1rem; color: #ccc;">⚠️ For entertainment purposes only. No real money gambling.</p>
+<section class="hero" style="background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('/images/casino-hero.jpg') center/cover; min-height: 600px; display: flex; align-items: center; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 70%);"></div>
+    <div class="hero-content fade-in" style="position: relative; z-index: 2;">
+        <div style="display: inline-block; padding: 0.5rem 2rem; background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(184, 134, 11, 0.2)); border: 2px solid var(--primary); border-radius: 50px; margin-bottom: 1.5rem;">
+            <span style="font-size: 0.9rem; color: var(--primary); font-weight: bold; letter-spacing: 2px;">✨ PREMIUM GAMING EXPERIENCE</span>
+        </div>
+        <h1 style="font-size: 4rem; margin-bottom: 1rem; text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);">ELITE CASINO</h1>
+        <p style="font-size: 1.5rem; color: var(--primary); margin-bottom: 1rem; font-weight: 600;">100% Free Social Casino</p>
+        <p style="font-size: 1.2rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Experience the thrill of premium casino games with virtual coins. No real money, no registration, just pure entertainment!</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+            <a href="/pages/play-now.php" class="btn btn-primary" style="font-size: 1.3rem; padding: 1.2rem 3rem; box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);">🎮 Start Playing Now</a>
+            <a href="/pages/about.php" class="btn" style="font-size: 1.3rem; padding: 1.2rem 3rem; background: rgba(255,255,255,0.1); border: 2px solid var(--primary);">📖 Learn More</a>
+        </div>
+        <div style="display: flex; gap: 3rem; justify-content: center; flex-wrap: wrap; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(212, 175, 55, 0.3);">
+            <div style="text-align: center;">
+                <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">10,000</div>
+                <div style="font-size: 0.9rem; color: #ccc;">Free Starting Coins</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">10</div>
+                <div style="font-size: 0.9rem; color: #ccc;">Exciting Games</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">100%</div>
+                <div style="font-size: 0.9rem; color: #ccc;">Free to Play</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">0</div>
+                <div style="font-size: 0.9rem; color: #ccc;">Real Money Risk</div>
+            </div>
+        </div>
+        <p style="font-size: 0.85rem; margin-top: 2rem; color: rgba(255,255,255,0.6); max-width: 600px; margin-left: auto; margin-right: auto;">⚠️ For entertainment purposes only. No real money gambling. Virtual coins have no real-world value.</p>
     </div>
 </section>
 
@@ -43,6 +68,27 @@ require_once __DIR__ . '/includes/header.php';
             <h3>Roulette</h3>
             <p>Place your bets on red, black, or specific numbers. Watch the wheel spin and feel the excitement of classic roulette!</p>
             <a href="/games/roulette.php" class="btn btn-primary">Play Roulette</a>
+        </div>
+        
+        <div class="game-card fade-in">
+            <div class="game-icon">🃏</div>
+            <h3>Blackjack</h3>
+            <p>Beat the dealer by getting as close to 21 as possible! Classic card game with hit, stand, and double down options.</p>
+            <a href="/games/blackjack.php" class="btn btn-primary">Play Blackjack</a>
+        </div>
+        
+        <div class="game-card fade-in">
+            <div class="game-icon">🎯</div>
+            <h3>Plinko</h3>
+            <p>Drop the ball and watch it bounce through pegs! Land in high multiplier slots for massive wins up to 16x!</p>
+            <a href="/games/plinko.php" class="btn btn-primary">Play Plinko</a>
+        </div>
+        
+        <div class="game-card fade-in">
+            <div class="game-icon">🎲</div>
+            <h3>Dice</h3>
+            <p>Roll the dice and predict over or under! Adjust your target number for different multipliers and risk levels.</p>
+            <a href="/games/dice.php" class="btn btn-primary">Play Dice</a>
         </div>
     </div>
     
@@ -105,27 +151,6 @@ require_once __DIR__ . '/includes/header.php';
         </div>
     </div>
     
-    <div style="background: var(--bg-card); padding: 2rem; border-radius: 15px; border: 1px solid var(--primary); margin: 3rem 0;">
-        <h3 style="color: var(--primary); text-align: center; margin-bottom: 1.5rem;">Daily Bonus Available!</h3>
-        <p style="text-align: center; margin-bottom: 1.5rem;">Claim your free 1,000 coins every day. Come back tomorrow for more!</p>
-        <div style="text-align: center;">
-            <button onclick="claimBonus()" class="btn btn-primary">Claim Daily Bonus</button>
-        </div>
-        <div id="bonus-message" style="text-align: center; margin-top: 1rem;"></div>
-    </div>
 </div>
-
-<script>
-function claimBonus() {
-    const result = claimDailyBonus();
-    const messageDiv = document.getElementById('bonus-message');
-    
-    if (result.success) {
-        messageDiv.innerHTML = '<div class="alert alert-success">🎉 Bonus claimed! +' + result.amount + ' coins added to your balance!</div>';
-    } else {
-        messageDiv.innerHTML = '<div class="alert alert-warning">⏰ ' + result.message + '</div>';
-    }
-}
-</script>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>

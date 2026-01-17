@@ -86,3 +86,22 @@ php_casino/
 ## ✅ Project Complete!
 
 All core features have been implemented and tested. The Elite Casino platform is ready for use.
+
+
+## 🔧 New Improvements Requested
+
+- [ ] Test all games on live website and document issues
+- [ ] Remove daily bonus section (overlapping issue)
+- [ ] Add casino-themed images to homepage banner
+- [ ] Make homepage more interesting and engaging
+- [ ] Add more proper casino games with working models
+- [ ] Fix any bugs found during testing
+- [ ] Push all updates to GitHub repository
+
+
+- [x] Remove daily bonus section from index.php
+- [x] Add casino-themed images to homepage banner
+- [x] Enhance homepage visual design with better layout
+- [x] Add Blackjack game with full card mechanics
+- [x] Add Plinko game with physics simulation
+- [x] Add Dice game with over/under betting
