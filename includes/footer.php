@@ -50,6 +50,9 @@
             <p style="font-size: 1.1rem; margin-top: 1rem; font-weight: bold; color: var(--warning); background: rgba(255, 193, 7, 0.1); padding: 1rem; border-radius: 10px; border: 2px solid var(--warning);">
                 ⚠️ <strong>NO REAL MONEY GAMBLING.</strong> Virtual coins have <strong>NO REAL-WORLD VALUE.</strong> For <strong>ENTERTAINMENT PURPOSES ONLY.</strong>
             </p>
+            <p style="font-size: 0.9rem; margin-top: 1rem; padding: 0.8rem; background: rgba(255, 255, 255, 0.05); border-radius: 8px; line-height: 1.6;">
+                <strong>⚖️ BRAND INDEPENDENCE:</strong> RISHIKANT is an independent brand and is <strong>NOT affiliated, associated, or connected with any other casino, gaming platform, or brand.</strong> This website is operated solely and exclusively by <strong>RISHIKANT KULPATI IMPEX INDIA PRIVATE LIMITED</strong> (CIN: U52601DL2019PTC358816), a registered Indian company. Any similarity in name, logo, or branding with other entities is purely coincidental.
+            </p>
         </div>
     </footer>
 </body>

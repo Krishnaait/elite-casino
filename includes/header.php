@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="fWfWRuHbusdels_KJTkyB7Z1GNrJ2zXcBjF1oFYtS20" />
     <title><?php echo isset($pageTitle) ? $pageTitle . ' - ' : ''; ?>RISHIKANT</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/style.css">

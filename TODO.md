@@ -408,3 +408,16 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [x] Fix "Learn More" button text visibility (change color from purple to white)
 - [ ] Test visibility on live site
 - [ ] Commit and push to GitHub
+
+
+## ⚖️ LEGAL DISCLAIMER & SEO VERIFICATION
+
+- [x] Add Google Site Verification meta tag to header.php
+- [x] Add legal disclaimer to footer stating:
+  - RISHIKANT is NOT affiliated with any other brand
+  - Operated solely by RISHIKANT KULPATI IMPEX INDIA PRIVATE LIMITED
+  - Independent brand identity
+- [x] Add disclaimer to About Us page for additional visibility
+- [ ] Test Google verification tag on live site
+- [ ] Commit and push to GitHub
+- [ ] Verify on Railway deployment

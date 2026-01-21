@@ -205,4 +205,32 @@ require_once __DIR__ . '/../includes/header.php';
     </div>
 </div>
 
+    <!-- Brand Independence Disclaimer -->
+    <div style="background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.05)); padding: 3rem; border-radius: 15px; margin-top: 3rem; border: 3px solid var(--primary); box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);">
+        <h2 style="color: var(--primary); margin-bottom: 1.5rem; font-size: 2rem; text-align: center;">⚖️ Brand Independence & Legal Notice</h2>
+        <div style="background: rgba(0, 0, 0, 0.3); padding: 2rem; border-radius: 10px; border-left: 5px solid var(--primary);">
+            <p style="font-size: 1.15rem; line-height: 1.9; margin-bottom: 1.5rem; font-weight: 500;">
+                <strong style="color: var(--primary); font-size: 1.3rem;">IMPORTANT LEGAL NOTICE:</strong><br><br>
+                <strong>RISHIKANT</strong> is an <strong style="color: var(--primary);">independent brand</strong> and is <strong style="color: var(--warning);">NOT affiliated, associated, endorsed by, or connected with any other casino, gaming platform, gambling website, or brand</strong> in any manner whatsoever.
+            </p>
+            <p style="font-size: 1.15rem; line-height: 1.9; margin-bottom: 1.5rem;">
+                This website and all associated services are operated <strong style="color: var(--primary);">solely and exclusively</strong> by:
+            </p>
+            <div style="background: rgba(212, 175, 55, 0.1); padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border: 2px solid var(--primary);">
+                <p style="font-size: 1.2rem; line-height: 2; margin: 0; text-align: center;">
+                    <strong style="color: var(--primary); font-size: 1.4rem;">RISHIKANT KULPATI IMPEX INDIA PRIVATE LIMITED</strong><br>
+                    <span style="font-size: 1rem; opacity: 0.9;">CIN: U52601DL2019PTC358816</span><br>
+                    <span style="font-size: 1rem; opacity: 0.9;">A Registered Indian Company</span>
+                </p>
+            </div>
+            <p style="font-size: 1.15rem; line-height: 1.9; margin-bottom: 1.5rem;">
+                Any similarity in name, logo, design, or branding with other entities, whether existing or defunct, is <strong>purely coincidental and unintentional</strong>. We maintain complete independence in our operations, branding, and business practices.
+            </p>
+            <p style="font-size: 1.15rem; line-height: 1.9; margin-bottom: 0; padding: 1.5rem; background: rgba(255, 193, 7, 0.1); border-radius: 8px; border: 2px solid var(--warning);">
+                <strong style="color: var(--warning);">⚠️ DISCLAIMER:</strong> RISHIKANT operates as a <strong>social casino for entertainment purposes only</strong>. We do not offer real money gambling, and virtual coins have no real-world monetary value. We are not associated with any real-money gambling operations.
+            </p>
+        </div>
+    </div>
+</div>
+
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>
