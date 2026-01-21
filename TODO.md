@@ -421,3 +421,25 @@ All core features have been implemented and tested. The Elite Casino platform is
 - [ ] Test Google verification tag on live site
 - [ ] Commit and push to GitHub
 - [ ] Verify on Railway deployment
+
+
+## 🎮 GAME IMPROVEMENTS - Plinko & Lucky Spin
+
+- [ ] Test Plinko game - identify why multiple balls don't drop continuously
+- [ ] Fix Plinko to allow continuous multiple ball drops (not just one at a time)
+- [ ] Test Lucky Spin game - identify wheel rotation speed issues
+- [ ] Fix Lucky Spin wheel to rotate at high speed consistently every time
+- [ ] Test both games thoroughly after fixes
+- [ ] Commit and push to GitHub
+- [ ] Verify fixes on live Railway site
+
+
+## 🎮 GAME IMPROVEMENTS - Plinko & Lucky Spin
+
+- [x] Test Plinko game - identified button blocking and single ball limitation
+- [x] Test Lucky Spin game - identified variable rotation speed (5-8 spins)
+- [x] Fix Plinko to allow multiple simultaneous ball drops (up to 10 balls)
+- [x] Fix Lucky Spin to rotate at high speed every time (8-10 spins, 5 seconds)
+- [ ] Test both games thoroughly
+- [ ] Commit and push to GitHub
+- [ ] Verify on live Railway site

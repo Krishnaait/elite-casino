@@ -90,8 +90,8 @@ function spinWheel() {
     document.getElementById('spin-btn').disabled = true;
     showResult('Spinning... 🎡', 'info');
     
-    // Random final position
-    const spins = 5 + Math.random() * 3; // 5-8 full rotations
+    // Random final position - HIGH SPEED CONSISTENT ROTATION
+    const spins = 8 + Math.random() * 2; // 8-10 full rotations (HIGH SPEED!)
     const randomSlice = Math.floor(Math.random() * prizes.length);
     const sliceAngle = (2 * Math.PI) / prizes.length;
     const targetRotation = (spins * 2 * Math.PI) + (randomSlice * sliceAngle) + (sliceAngle / 2);
@@ -100,7 +100,7 @@ function spinWheel() {
 }
 
 function animateSpin(targetRotation, betAmount, winningSlice) {
-    const duration = 4000; // 4 seconds
+    const duration = 5000; // 5 seconds for high-speed spin
     const startTime = Date.now();
     const startRotation = currentRotation;
     
